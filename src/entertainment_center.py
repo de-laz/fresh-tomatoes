@@ -20,10 +20,25 @@ def create_favourite_movies():
     the_godfather = Movie("The Godfather", "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
                           YOUTUBE_BASE_URL.format("5DO-nDW43Ik"), 9.2, 1972)
 
+    the_fellowship_of_the_ring = Movie("The Lord of The Rings: The Fellowship of the Ring",
+                                       "https://upload.wikimedia.org/wikipedia/en/0/0c/The_Fellowship_Of_The_Ring.jpg",
+                                       YOUTUBE_BASE_URL.format("V75dMMIW2B4"), 8.8, 2001)
+
+    the_two_towers = Movie("The Lord of The Rings: The Two Towers",
+                                       "https://upload.wikimedia.org/wikipedia/en/a/ad/Lord_of_the_Rings_-_The_Two_Towers.jpg",
+                                       YOUTUBE_BASE_URL.format("LbfMDwc4azU"), 8.7, 2002)
+
+    the_return_of_the_king = Movie("The Lord of The Rings: The Return of The King",
+                                       "https://upload.wikimedia.org/wikipedia/en/9/9d/Lord_of_the_Rings_-_The_Return_of_the_King.jpg",
+                                       YOUTUBE_BASE_URL.format("r5X-hFf6Bwo"), 8.9, 2003)
+
     return [forest_gump,
             zohan,
             deadpool,
-            the_godfather]
+            the_godfather,
+            the_fellowship_of_the_ring,
+            the_two_towers,
+            the_return_of_the_king]
 
 
 if __name__ == '__main__':
