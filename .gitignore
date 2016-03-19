@@ -63,3 +63,6 @@ target/
 
 #Pycharm Files
 .idea
+
+# Generated html files
+fresh_tomatoes.html
