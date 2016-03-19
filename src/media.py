@@ -1,7 +1,5 @@
 class Movie:
-    """
-
-    """
+    """This class is a structure for storing a movie"""
 
     def __init__(self, title, poster_image_url, trail_youtube_url, imdb_rating, year):
         self.title = title

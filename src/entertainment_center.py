@@ -8,6 +8,8 @@ YOUTUBE_BASE_URL = "https://www.youtube.com/watch?v={}"  # Youtube base url for 
 
 
 def create_favourite_movies():
+    """This function creates and returns a list of movies."""
+
     forest_gump = Movie("Forest Gump", "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
                         YOUTUBE_BASE_URL.format("bLvqoHBptjg"), 8.8, 1994)
 
