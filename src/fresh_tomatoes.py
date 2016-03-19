@@ -55,6 +55,10 @@ main_page_head = '''
             top: 0;
             background-color: white;
         }
+
+        .glyphicon.glyphicon-star{
+            color: #ffcc00
+        }
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -121,9 +125,8 @@ main_page_content = '''
 # A single movie entry html template
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
-    <img src="{poster_image_url}" width="220" height="342">
-    <h3>{movie_title}({year})</h3>
-    <i class="glyphicon glyphicon-star"></i>{imdb_rating}
+    <img src="{poster_image_url}" width="200" height="250">
+    <h3>{movie_title}({year}) <i class="glyphicon glyphicon-star"></i>{imdb_rating}</h3>
 </div>
 '''
 
