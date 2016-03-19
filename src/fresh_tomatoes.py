@@ -115,7 +115,9 @@ main_page_content = '''
       </div>
     </div>
     <div class="container">
-      {movie_tiles}
+        <div class="row">
+            {movie_tiles}
+        </div>
     </div>
   </body>
 </html>
@@ -124,9 +126,9 @@ main_page_content = '''
 
 # A single movie entry html template
 movie_tile_content = '''
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
-    <img src="{poster_image_url}" width="200" height="250">
+<div class="col-md-3 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <h3>{movie_title}({year}) <i class="glyphicon glyphicon-star"></i>{imdb_rating}</h3>
+    <img src="{poster_image_url}" width="200" height="250">
 </div>
 '''
 
@@ -148,8 +150,8 @@ def create_movie_tiles_content(movies):
             movie_title=movie.title,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id,
-            year = movie.year,
-            imdb_rating = movie.imdb_rating
+            year=movie.year,
+            imdb_rating=movie.imdb_rating
         )
     return content
 
