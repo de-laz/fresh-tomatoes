@@ -1,35 +1,3 @@
-# Fresh Tomatoes
-Fresh tomatoes lists my favorite movies with links to their Youtube  trailers.
-
-## Quick Start
-To get started, follow these instructions:
-
-1. Run: `git clone git@github.com:de-laz/fresh-tomatoes.git` or Download Zip and extract to your local environment.
-2. Inside the project folder, from the terminal, run `python entertainment_center.py`
-
-After following the instructions, your browser should launch and you should see a page that looks like the following:
-![](screen_shot.png)
-
-## Dependencies
-- Python 2.x or 3.x
-
-## What's included
-
-The projects includes the following files:
-```
-fresh-tomatoes/
-├── src/
-│   ├── entertainment_center.py
-│   ├── fresh_tomatoes.py
-│   ├── media.py
-├── LICENCE
-├── .gitignore
-├── .README.md
-└── screen_shot.png
-```
-
-## Copyright and Licence
-
 The MIT License (MIT)
 
 Copyright (c) 2011-2016 Twitter, Inc.
