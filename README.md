@@ -1,4 +1,5 @@
 # Fresh Tomatoes
+NOTE: This is a Udacity project(Full-Stack Web developer Nanodegree: P1)
 Fresh tomatoes lists my favorite movies with links to their Youtube  trailers.
 
 ## Quick Start
